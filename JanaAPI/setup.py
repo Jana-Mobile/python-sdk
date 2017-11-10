@@ -8,6 +8,6 @@ setup(
     packages=['jana_api'],
     license='LICENSE.txt',
     description='SDK for the Jana API',
-    install_requires=['requests'],
+    install_requires=['requests=2.6.0'],
     long_description=open('README.txt').read(),
 )
